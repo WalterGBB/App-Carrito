@@ -1,0 +1,72 @@
+/* Estilos para la tarjeta */
+.tarjeta {
+  display: flex;
+  border-radius: 4px;
+  padding: 20px;
+  margin: 0 0 20px 20px;
+  align-items: center;
+  background-color: white;
+  color: #1d0c20;
+}
+
+.tarjeta-imagen {
+  width: 150px;
+  object-fit: contain; /* Ajusta la imagen dentro del contenedor sin recortarla */
+  border-radius: 4px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+}
+
+.tarjeta-contenido {
+  flex: 1;
+  text-align: justify;
+  width: 100%;
+}
+
+.tarjeta-titulo {
+  margin: 0;
+}
+
+.tarjeta-descripcion {
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.tarjeta-precio {
+  margin: 0;
+  font-weight: bold;
+}
+
+.btn-agregar {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.btn-agregar:hover {
+  background-color: #45a049;
+}
+.btn-quitar {
+  background-color: #af4c4c;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.btn-quitar:hover {
+  background-color: #a04545;
+}
+
+/* Estilos para el carrito */
+.carrito {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
